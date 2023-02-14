@@ -1,0 +1,27 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-color: #6096b4;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.game-logo {
+  width: 200px;
+}
+
+p {
+  color: #ffffff;
+}
+
+.guess-result {
+  color: #ffffff;
+}
