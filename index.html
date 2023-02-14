@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adivinhe o Número</title>
 
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+  </head>
+  <body>
     <section class="container">
-        <h1 class="page-title">Adivinhe o Número</h1>
-        <img src="images/mind-reader.png" class="game-logo" />
+      <h1 class="page-title">Adivinhe o Número</h1>
+      <img src="images/mind-reader.png" class="game-logo" />
+      <p>Adivinhe o número secreto entre 1 e 100</p>
+      <form class="game-form">
+        <input
+          type="text"
+          placeholder="Digite seu palpite aqui"
+          id="guess-field"
+        />
+        <input type="button" value="Chutar" onclick="checkGuess()" />
+      </form>
+      <label class="guess-result"></label>
     </section>
-    <section class="container">
-        <input type="number" placeholder="Qual o número secreto?" id="guess-field" />
-        <button id="try-guess">Chutar</button>
-    </section>
-    <label id="guess-result"></label>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
