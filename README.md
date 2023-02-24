@@ -3,8 +3,6 @@
 ![project status](https://img.shields.io/badge/Development-Complete-00FF00)
 ![license](https://img.shields.io/badge/License-MIT-4B9081)
 
-Descrição do projeto
-
 Esse projeto se trata de um jogo em que um número aleatório de 1 a 100 é gerado e cabe ao jogador descobri-lo. A cada chute feito, uma dica é dada dizendo se o número é maior ou menor, até que o jogador acerte o número e o jogo se encerre.
 
 ![project screenshot](/images/project-screenshot.png)
@@ -16,7 +14,7 @@ Esse projeto se trata de um jogo em que um número aleatório de 1 a 100 é gera
 Você pode clonar esse repositório com o comando a seguir:
 
 ```bash
-git clone [https://github.com/FabioAdrianoSilveira/guess-the-number]
+git clone https://github.com/FabioAdrianoSilveira/guess-the-number
 ```
 
 ---
